@@ -34,6 +34,9 @@ class Sorter {
 
         //if collection is a string, do this logic instead
         //~logic to compare and swap characters in a string
+        //TYPE GUARD
+        if (typeof this.collection === 'string') {
+        }
       }
     }
   }
