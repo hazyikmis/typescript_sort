@@ -1,7 +1,9 @@
 "use strict";
+//import { NumbersCollection } from './NumbersCollection';
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Sorter = void 0;
 var Sorter = /** @class */ (function () {
+    //constructor(public collection: NumbersCollection) {}
     function Sorter(collection) {
         this.collection = collection;
     }
