@@ -2,6 +2,11 @@
 //import { NumbersCollection } from './NumbersCollection';
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Sorter = void 0;
+// interface Sortable {
+//   length: number;
+//   compare(leftIndex: number, rightIndex: number): boolean;
+//   swap(leftIndex: number, rightIndex: number): void;
+// }
 //NORMALLY WE SHOULD NOT INSTANTIATE NEW OBJECTS FROM THIS CLASS
 //CHECK index.ts: const sorter = new Sorter(charsCollection); !!! SHOULD NOT BE!!!
 //THIS SHOULD BE AN ABSTRACT CLASS

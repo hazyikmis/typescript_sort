@@ -1,10 +1,10 @@
 //import { NumbersCollection } from './NumbersCollection';
 
-interface Sortable {
-  length: number;
-  compare(leftIndex: number, rightIndex: number): boolean;
-  swap(leftIndex: number, rightIndex: number): void;
-}
+// interface Sortable {
+//   length: number;
+//   compare(leftIndex: number, rightIndex: number): boolean;
+//   swap(leftIndex: number, rightIndex: number): void;
+// }
 
 //NORMALLY WE SHOULD NOT INSTANTIATE NEW OBJECTS FROM THIS CLASS
 //CHECK index.ts: const sorter = new Sorter(charsCollection); !!! SHOULD NOT BE!!!
