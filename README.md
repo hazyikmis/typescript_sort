@@ -16,3 +16,13 @@ tsc -w
 npm init -y
 npm install nodemon concurrently
 ```
+
+> In package.json:
+
+```
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  }
+```
